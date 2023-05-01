@@ -1,0 +1,8 @@
+out
+target
+.idea
+.DS_Store
+/build
+**/.env
+**/target
+node/.fueldb
