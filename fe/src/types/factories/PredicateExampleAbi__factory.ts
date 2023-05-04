@@ -4,16 +4,16 @@
 /* eslint-disable */
 
 /*
-  Fuels version: 0.40.0
+  Fuels version: 0.41.0
   Forc version: 0.35.5
   Fuel-Core version: 0.17.3
 */
 
 import {
   BigNumberish,
+  BN,
   Predicate,
   Provider,
-  BN,
 } from 'fuels';
 
 export type ValidationInput = { has_account: boolean, total_complete: BigNumberish };
@@ -76,7 +76,7 @@ const _abi = {
   "configurables": []
 }
 
-const _bin = ''
+const _bin = '0x9000000447000000000000000000006c5dfcc00110fff30071480003614521017344000b614d210d9000001272400002134114005a41000173400011614d211f90000012240000005d41300013410040734000169000001a504130085d4500005d43f00013411400244000000000000000000064'
 
 export class PredicateExampleAbi__factory {
 
